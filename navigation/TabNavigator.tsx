@@ -35,7 +35,7 @@ const TabNavigator = () => {
                 color={focused ? "#59c1cc" : "gray"}
               />
             );
-          } else if (route.name === "Orders") {
+          } else if (route.name === "Order") {
             return (
               <Icon
                 name="box"
@@ -49,7 +49,7 @@ const TabNavigator = () => {
     >
       <Tab.Screen name="Customers" component={CustomerScreen} />
 
-      <Tab.Screen name="Orders" component={OrdersScreen} />
+      <Tab.Screen name="Order" component={OrdersScreen} />
     </Tab.Navigator>
   );
 };
